@@ -1,0 +1,31 @@
+{
+  "test_id": "greenlee_20261121_093538_d65972",
+  "timestamp_utc": "2026-11-21T09:35:42.456845+00:00",
+  "ammeter_type": "greenlee",
+  "port": 5001,
+  "command": "MEASURE_GREENLEE -get_measurement",
+  "duration_seconds": 4.4388,
+  "samples": [
+    0.08315845650514009,
+    0.07747831457173324,
+    0.08430079940704513,
+    0.40868711895188603,
+    0.04683768471807455,
+    0.07207677519331024,
+    0.653697524197492,
+    0.12721602388028602,
+    0.13163855952672315
+  ],
+  "statistics": {
+    "mean": 0.18723236188352116,
+    "median": 0.08430079940704513,
+    "std_dev": 0.2060850244822646,
+    "min": 0.04683768471807455,
+    "max": 0.653697524197492,
+    "count": 9
+  },
+  "errors": [
+    "Sample 1: Failed to communicate with ammeter on port {port}: {exc}"
+  ],
+  "status": "partial"
+}

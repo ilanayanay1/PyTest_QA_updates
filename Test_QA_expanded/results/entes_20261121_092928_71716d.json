@@ -1,0 +1,30 @@
+{
+  "test_id": "entes_20261121_092928_71716d",
+  "timestamp_utc": "2026-11-21T09:29:48.910785+00:00",
+  "ammeter_type": "entes",
+  "port": 5002,
+  "command": "MEASURE_ENTES -get_data",
+  "duration_seconds": 20.0883,
+  "samples": [],
+  "statistics": {
+    "mean": null,
+    "median": null,
+    "std_dev": null,
+    "min": null,
+    "max": null,
+    "count": 0
+  },
+  "errors": [
+    "Sample 1: Failed to communicate with ammeter on port {port}: {exc}",
+    "Sample 2: Failed to communicate with ammeter on port {port}: {exc}",
+    "Sample 3: Failed to communicate with ammeter on port {port}: {exc}",
+    "Sample 4: Failed to communicate with ammeter on port {port}: {exc}",
+    "Sample 5: Failed to communicate with ammeter on port {port}: {exc}",
+    "Sample 6: Failed to communicate with ammeter on port {port}: {exc}",
+    "Sample 7: Failed to communicate with ammeter on port {port}: {exc}",
+    "Sample 8: Failed to communicate with ammeter on port {port}: {exc}",
+    "Sample 9: Failed to communicate with ammeter on port {port}: {exc}",
+    "Sample 10: Failed to communicate with ammeter on port {port}: {exc}"
+  ],
+  "status": "failed"
+}

@@ -1,0 +1,31 @@
+{
+  "test_id": "entes_20261121_094616_29696c",
+  "timestamp_utc": "2026-11-21T09:46:29.583247+00:00",
+  "ammeter_type": "entes",
+  "port": 5002,
+  "command": "MEASURE_ENTES -get_data",
+  "duration_seconds": 12.8617,
+  "samples": [
+    80.62468146821192,
+    30.19091232433636,
+    113.8056444073336,
+    38.71841652033422
+  ],
+  "statistics": {
+    "mean": 65.83491368005403,
+    "median": 59.67154899427307,
+    "std_dev": 38.84038915268612,
+    "min": 30.19091232433636,
+    "max": 113.8056444073336,
+    "count": 4
+  },
+  "errors": [
+    "Sample 5: Failed to communicate with ammeter on port 5002: timed out",
+    "Sample 6: Failed to communicate with ammeter on port 5002: timed out",
+    "Sample 7: Failed to communicate with ammeter on port 5002: timed out",
+    "Sample 8: Failed to communicate with ammeter on port 5002: timed out",
+    "Sample 9: Failed to communicate with ammeter on port 5002: timed out",
+    "Sample 10: Failed to communicate with ammeter on port 5002: timed out"
+  ],
+  "status": "partial"
+}

@@ -121,4 +121,14 @@ The test will be assessed on:
 - Ensure cross-platform compatibility
 - Provide clear, readable code
 
+## installation requirements 
+powershell commnad: winget install --id Python.Python.3.12 -e --source winget
+pip install -r requirements.txt
+pip install pyyaml
 
+Answer: 
+1. edit conifg.yaml
+2. unremark request_current_from_ammeter from main.py and send correct command 
+3. edit client.py error handling and retur float
+4. implement test_framework.py run_test and reports handling 
+5. 

@@ -46,3 +46,4 @@ class AmmeterEmulatorBase(ABC):
         """
         raise NotImplementedError(NotImplementedErrorMsg)
 
+

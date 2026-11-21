@@ -1,0 +1,30 @@
+{
+  "test_id": "greenlee_20261121_121520_f05cc9",
+  "timestamp_utc": "2026-11-21T12:15:40.798804+00:00",
+  "ammeter_type": "greenlee",
+  "port": 5001,
+  "command": "MEASURE_GREENLEE -get_measurement",
+  "duration_seconds": 20.1288,
+  "samples": [],
+  "statistics": {
+    "mean": null,
+    "median": null,
+    "std_dev": null,
+    "min": null,
+    "max": null,
+    "count": 0
+  },
+  "errors": [
+    "Sample 1: Failed to communicate with ammeter on port 5001: timed out",
+    "Sample 2: Failed to communicate with ammeter on port 5001: timed out",
+    "Sample 3: Failed to communicate with ammeter on port 5001: timed out",
+    "Sample 4: Failed to communicate with ammeter on port 5001: timed out",
+    "Sample 5: Failed to communicate with ammeter on port 5001: timed out",
+    "Sample 6: Failed to communicate with ammeter on port 5001: timed out",
+    "Sample 7: Failed to communicate with ammeter on port 5001: timed out",
+    "Sample 8: Failed to communicate with ammeter on port 5001: timed out",
+    "Sample 9: Failed to communicate with ammeter on port 5001: timed out",
+    "Sample 10: Failed to communicate with ammeter on port 5001: timed out"
+  ],
+  "status": "failed"
+}

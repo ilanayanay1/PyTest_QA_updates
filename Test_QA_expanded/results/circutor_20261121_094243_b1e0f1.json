@@ -1,0 +1,31 @@
+{
+  "test_id": "circutor_20261121_094243_b1e0f1",
+  "timestamp_utc": "2026-11-21T09:42:51.197737+00:00",
+  "ammeter_type": "circutor",
+  "port": 5003,
+  "command": "MEASURE_CIRCUTOR -get_measurement -current",
+  "duration_seconds": 7.4235,
+  "samples": [
+    0.04202551587074569,
+    0.0332554150577713,
+    0.03797200018767011,
+    0.011380172725424124,
+    0.049709758094825515,
+    0.039007916032702455,
+    0.048494850847325355
+  ],
+  "statistics": {
+    "mean": 0.037406518402352075,
+    "median": 0.039007916032702455,
+    "std_dev": 0.012865603582460236,
+    "min": 0.011380172725424124,
+    "max": 0.049709758094825515,
+    "count": 7
+  },
+  "errors": [
+    "Sample 8: Failed to communicate with ammeter on port 5003: timed out",
+    "Sample 9: Failed to communicate with ammeter on port 5003: timed out",
+    "Sample 10: Failed to communicate with ammeter on port 5003: timed out"
+  ],
+  "status": "partial"
+}

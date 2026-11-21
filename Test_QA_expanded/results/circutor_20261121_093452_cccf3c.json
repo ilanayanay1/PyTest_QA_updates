@@ -1,0 +1,31 @@
+{
+  "test_id": "circutor_20261121_093452_cccf3c",
+  "timestamp_utc": "2026-11-21T09:34:55.923806+00:00",
+  "ammeter_type": "circutor",
+  "port": 5003,
+  "command": "MEASURE_CIRCUTOR -get_measurement -current",
+  "duration_seconds": 3.8101,
+  "samples": [
+    0.04842465214840431,
+    0.033624896524470926,
+    0.05276925160062394,
+    0.014801472756596244,
+    0.011859113468520274,
+    0.02063619037405217,
+    0.027448675502766987,
+    0.028314100508354624,
+    0.01527963287962912
+  ],
+  "statistics": {
+    "mean": 0.028128665084824287,
+    "median": 0.027448675502766987,
+    "std_dev": 0.01463445462745642,
+    "min": 0.011859113468520274,
+    "max": 0.05276925160062394,
+    "count": 9
+  },
+  "errors": [
+    "Sample 10: Failed to communicate with ammeter on port {port}: {exc}"
+  ],
+  "status": "partial"
+}
